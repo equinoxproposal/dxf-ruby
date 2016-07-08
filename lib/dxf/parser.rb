@@ -68,18 +68,18 @@ module DXF
       raise ParseError, 'SECTION must be followed by a section type' unless '2' == code
 
       case value
-        # when 'BLOCKS' then
-        #   parse_pairs(io) { |code, value|} # Ignore until implemented
-        # when 'CLASSES' then
-        #   parse_pairs(io) { |code, value|} # Ignore until implemented
+        when 'BLOCKS' then
+          parse_pairs(io) { |code, value|} # Ignore until implemented
+        when 'CLASSES' then
+          parse_pairs(io) { |code, value|} # Ignore until implemented
         when 'ENTITIES'
           parse_entities(io)
         when 'HEADER'
           parse_header(io)
-        # when 'OBJECTS' then
-        #   parse_pairs(io) { |code, value|} # Ignore until implemented
-        # when 'TABLES' then
-        #   parse_pairs(io) { |code, value|} # Ignore until implemented
+        when 'OBJECTS' then
+          parse_pairs(io) { |code, value|} # Ignore until implemented
+        when 'TABLES' then
+          parse_pairs(io) { |code, value|} # Ignore until implemented
         else
           raise ParseError, "Unrecognized section type '#{value}'"
       end
