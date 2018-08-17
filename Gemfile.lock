@@ -1,13 +1,17 @@
+GIT
+  remote: git://github.com/netizer/geometry.git
+  revision: 493c43076f45b6888ac9f99f1e9018c2a5073de8
+  specs:
+    geometry (6.5)
+
 PATH
   remote: .
   specs:
     dxf (0.3.1)
-      geometry (~> 6.4)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    geometry (6.5)
     minitest (5.9.0)
     rake (11.2.2)
 
@@ -16,8 +20,9 @@ PLATFORMS
 
 DEPENDENCIES
   dxf!
+  geometry!
   minitest
   rake
 
 BUNDLED WITH
-   1.12.5
+   1.16.0
