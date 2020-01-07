@@ -1,6 +1,7 @@
 GIT
-  remote: git://github.com/netizer/geometry.git
-  revision: 493c43076f45b6888ac9f99f1e9018c2a5073de8
+  remote: git://github.com/bfoz/geometry.git
+  revision: 3054ccba59f184c172be52a6f0b7cf4a33f617a5
+  ref: 3054ccba59f184c172be52a6f0b7cf4a33f617a5
   specs:
     geometry (6.5)
 
@@ -25,4 +26,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   1.16.0
+   1.16.6
