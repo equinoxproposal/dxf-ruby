@@ -1,13 +1,18 @@
+GIT
+  remote: git://github.com/bfoz/geometry.git
+  revision: 3054ccba59f184c172be52a6f0b7cf4a33f617a5
+  ref: 3054ccba59f184c172be52a6f0b7cf4a33f617a5
+  specs:
+    geometry (6.5)
+
 PATH
   remote: .
   specs:
     dxf (0.3.1)
-      geometry (~> 6.4)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    geometry (6.5)
     minitest (5.9.0)
     rake (11.2.2)
 
@@ -16,8 +21,9 @@ PLATFORMS
 
 DEPENDENCIES
   dxf!
+  geometry!
   minitest
   rake
 
 BUNDLED WITH
-   1.12.5
+   1.16.6
